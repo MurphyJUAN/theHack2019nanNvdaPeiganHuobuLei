@@ -4,7 +4,7 @@
    
     <div class="container">
         <div class="bar">
-            <v-select class='col-lg-3' style='margin-bottom: 30px' :options="['涼度','甜度','互動程度','無聊度','用功時間','資源滿意度']"></v-select>
+            <v-select class='col-lg-3 col-md-6 col-sm-6' style='margin-bottom: 30px' :options="['涼度','甜度','互動程度','無聊度','用功時間','資源滿意度']"></v-select>
             <tr class="items">
                 <td class="item item0">課程</td>
                 <td class="item item0">教師</td>
@@ -97,30 +97,30 @@
 
     <div class="row ">
       <form action="">
-        <div class="form-group">
+        <div class="form-group col-12">
           <div class="write-rating-box">
             <div class="rating-label">涼度</div>
-            <star-rating star-size='25'></star-rating>
+            <star-rating :star-size="25"></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">甜度</div>
-            <star-rating star-size='25'></star-rating>
+            <star-rating :star-size="25"></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">互動程度</div>
-            <star-rating star-size='25'></star-rating>
+            <star-rating :star-size="25"></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">無聊度</div>
-            <star-rating star-size='25'></star-rating>
+            <star-rating :star-size="25"></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">用功時間</div>
-            <star-rating star-size='25'></star-rating>
+            <star-rating :star-size="25"></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">資源滿意度</div>
-            <star-rating star-size='25'></star-rating>
+            <star-rating :star-size="25"></star-rating>
           </div>
           <button type="submit" class="btn btn-primary btn-lg">送出評分</button>
         </div>
