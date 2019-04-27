@@ -1,5 +1,129 @@
 <template>
     <div>
+      <form class='mobile-search-bar'>
+        <div class="mobile-enter-teacher col-12">
+          <input class='teacher-text' type="text" placeholder="輸入教師名稱" v-model="inputTeacher">
+          <div class='mobile-cross' @click="removeTeacher()">X</div>
+        </div>
+        <div class="mobile-enter-class col-12">
+          <input class='class-text' type="text" placeholder="輸入課程名稱" v-model="inputCourse">
+          <div class='cross' @click="removeCourse()">X</div>
+        </div>
+        <div class="mobile-choose-department col-12" id="departmentContent">
+          <div class='department-text' id="departmentText" @click="showDepartmentList()">{{inputDepartment}}</div>
+          <ul class="departments" id = "departmentList" v-if="isDepartmentList"> 
+            <div class='college-box' id='collegeBox'>
+              <div class="college-title">學院</div>
+              <li class="department-firstlayer" id='depFst' v-for="(item,idx) in all_colleges" :key="idx"> 
+                  <div class="college" id="colleges" @click="showDetail(idx)">{{item.college}}</div>
+              </li>
+            </div>
+            <div class='department-box' v-if="isDepartmentTitle" id='departmentBox'>
+              <div class="department-title">系所</div>
+              <ul class="department-secondelayer" id='depdet'>
+                <div class="department-detail" @click="selectDepartment(target)" v-for="(target,idx) in all_colleges[detail].departments" :key="idx"
+                >{{target}}
+                </div>
+              </ul>
+            </div>
+            <div class='choose-box' v-if="isChooseBox">
+              <div class="choose-title" @click="selectChooseBox('選修')">選修</div>
+              <div class="choose-title" @click="selectChooseBox('必修')">必修</div>
+            </div>
+
+          </ul>
+          
+        </div>
+        <div class="mobile-choose-grade col-12" id='chooseGrade'>
+          <div class='grade-text col-12' @click="showGradeList()">{{inputGrade}}
+            <ul class="grade-layer" id='gradList' v-if="isGradeList">
+                    <div class="grade-content" @click="selectGrade(grade), showGradeList()" v-for="(grade,idx) in grades" :key="idx">
+                    {{grade}}</div>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="mobile-choose-classTime col-12">
+          <div class='classTime-text' @click="showClassTimeList()">空堂塞課</div>
+            <ul class="mobile-classTime-layer right" v-if="isClasstimeList">
+          <table>
+            <tbody>
+              <tr>
+                <td class="blank"></td>
+                <td class="title">Mon</td>
+                <td class="title">Tue</td>
+                <td class="title">Wed</td>
+                <td class="title">Thu</td>
+                <td class="title">Fri</td>
+              </tr>
+              <tr>
+                <td class="time">08:00</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in First" :key="idx"
+                >
+                {{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">09:00</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Second" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">10:10</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Third" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">11:10</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Fourth" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">12:10</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Nth" :key="idx"  
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">13:20</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Fifth" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">14:20</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Sixth" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">15:30</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Seventh" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">16:30</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Eigth" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              <tr>
+                <td class="time">17:30</td>
+                <td class="drop" @click="item.click=!item.click" :class="item.click? 'isClick':'unClick'" v-for="(item,idx) in Ninth" :key="idx"
+                
+                >{{item.name}}</td>
+              </tr>
+              </tbody>
+          </table>
+        </ul>
+          
+          
+        </div>
+        <button type="button" size="lg"  class="mobile-ready-search btn btn-warning" @click="goRank">搜索</button>
+      </form>
+      <!-- ------------------------Below is Desktop------------------ -->
       <form class='search-bar'>
         <div class="enter-teacher">
           <input class='teacher-text' type="text" placeholder="輸入教師名稱" v-model="inputTeacher">
@@ -12,23 +136,31 @@
         <div class="choose-department" id="departmentContent">
           <div class='department-text' id="departmentText" @click="showDepartmentList()">{{inputDepartment}}</div>
           <ul class="departments" id = "departmentList" v-if="isDepartmentList"> 
-                  <div class="college-title">學院</div>
-                  <li class="department-firstlayer" v-for="(item,idx) in all_colleges" :key="idx"> 
-                      <div class="college" id="colleges" @click="showDetail(idx)">{{item.college}}</div>
-                  </li>
-                  <div class="department-title">系所</div>
-                  <ul class="department-secondelayer">
-                    <div class="department-detail" @click="selectDepartment(target)" v-for="(target,idx) in all_colleges[detail].departments" :key="idx"
-                    >{{target}}</div>
-                  </ul>
-                  
-                  
+            <div class='college-box' id='collegeBox'>
+              <div class="college-title">學院</div>
+              <li class="department-firstlayer" id='depFst' v-for="(item,idx) in all_colleges" :key="idx"> 
+                  <div class="college" id="colleges" @click="showDetail(idx)">{{item.college}}</div>
+              </li>
+            </div>
+            <div class='department-box' v-if="isDepartmentTitle" id='departmentBox'>
+              <div class="department-title">系所</div>
+              <ul class="department-secondelayer" id='depdet'>
+                <div class="department-detail" @click="selectDepartment(target)" v-for="(target,idx) in all_colleges[detail].departments" :key="idx"
+                >{{target}}
+                </div>
               </ul>
+            </div>
+            <div class='choose-box' v-if="isChooseBox">
+              <div class="choose-title" @click="selectChooseBox('選修')">選修</div>
+              <div class="choose-title" @click="selectChooseBox('必修')">必修</div>
+            </div>
+
+          </ul>
           
         </div>
-        <div class="choose-grade">
+        <div class="choose-grade" id='chooseGrade'>
           <div class='grade-text' @click="showGradeList()">{{inputGrade}}
-            <ul class="grade-layer" v-if="isGradeList">
+            <ul class="grade-layer" id='gradList' v-if="isGradeList">
                     <div class="grade-content" @click="selectGrade(grade), showGradeList()" v-for="(grade,idx) in grades" :key="idx">
                     {{grade}}</div>
             </ul>
@@ -123,21 +255,23 @@
 </template>
 
 <script>
-
-
+  import Vue from 'vue'
+  import vSelect from 'vue-select'
+  Vue.component('v-select', vSelect)
   export default {
-    
   data: function(){
   return{
   placeholder:'您想學習什麼課程？',
   selectedTags:[],
   isDepartmentList: false,
+  isDepartmentTitle: false,
+  isChooseBox: false,
   isGradeList: false,
   isClasstimeList: false,
   detail: 0,
   inputTeacher: "",
   inputCourse: "",
-  inputDepartment: "選擇學院與系所",
+  inputDepartment: "必選修",
   inputGrade: "選擇年級",
   First:[
   {name:"M1", click: false},
@@ -218,7 +352,6 @@
   {
   college: "電機資訊學院",
   departments: [
-  "全部",
   "資訊工程學系",
   "電機工程學系",
   "電機資訊學院學士班",
@@ -231,7 +364,6 @@
   {
   college: "理學院",
   departments: [
-  "全部",
   "數學系",
   "物理學系",
   "化學系",
@@ -244,7 +376,6 @@
   {
   college: "工學院",
   departments: [
-  "全部",
   "化學工程學系",
   "動力機械工程學系",
   "材料科學工程學系",
@@ -258,7 +389,6 @@
   {
   college: "原子科學院",
   departments: [
-  "全部",
   "工程與系統科學系",
   "生醫工程與環境科學系",
   "原子科學院學士班",
@@ -269,7 +399,6 @@
   {
   college: "人文社會學院",
   departments: [
-  "全部",
   "中國文學系",
   "外國語文學系",
   "人文社會學院學士班",
@@ -286,7 +415,6 @@
   {
   college: "生命科學院",
   departments: [
-  "全部",
   "生命科學系",
   "醫學科學系",
   "生命科學學士班",
@@ -300,7 +428,6 @@
   {
   college: "科技管理學院",
   departments: [
-  "全部",
   "計量財務金融學系",
   "經濟學系",
   "科技管理學院學士班",
@@ -317,7 +444,6 @@
   {
   college: "竹師教育學院",
   departments: [
-  "全部",
   "教育與學習科技學系",
   "幼兒教育學系",
   "特殊教育學系",
@@ -364,7 +490,12 @@
   },
 
   showGradeList(){
-    this.isGradeList = !this.isGradeList
+    if(this.inputDepartment.match('研究所')){
+      this.isGradeList = false;
+      this.inputGrade = '無'
+    }else {
+      this.isGradeList = !this.isGradeList
+    }
   },
   showClassTimeList(){
     this.isClasstimeList = !this.isClasstimeList
@@ -372,6 +503,7 @@
   showDetail(idx){
     console.log('====',idx)
     this.detail = idx
+    this.isDepartmentTitle = true
   },
   hideDetail(idx){
     console.log('====',idx)
@@ -379,11 +511,19 @@
   },
   selectDepartment(target){
     this.inputDepartment = target
-    this.isDepartmentList = !this.isDepartmentList
+    this.isChooseBox = true
   },
   selectGrade(target){
     this.inputGrade = target
     this.isGradeList = false
+  },
+  selectChooseBox(target){
+    this.isDepartmentList = !this.isDepartmentList
+    this.detail = 0
+    let str = this.inputDepartment + '．' + target
+    this.inputDepartment = str
+    this.isDepartmentTitle = !this.isDepartmentTitle
+    this.isChooseBox = !this.isChooseBox
   },
   removeTeacher(){
     this.inputTeacher = ""
@@ -393,16 +533,22 @@
   }
   
   },
-  // mounted() { 
-  //   document.addEventListener('click', (e) => {
-  //      if (e.target.parentElement.id != 'departmentContent' && e.target.parentElement.id != 'departmentList') this.isDepartmentList = false }
-  //      ) }
-
+  mounted() { 
+    document.addEventListener('click', (e) => {
+       if (e.target.parentElement.id != 'depFst' && e.target.parentElement.id != 'depdet' && e.target.parentElement.id != 'departmentContent' && e.target.parentElement.id != 'collegeBox' && e.target.parentElement.id != 'departmentBox') {
+         this.isDepartmentList = false 
+         }
+       if(e.target.parentElement.id != 'gradList' && e.target.parentElement.id != 'chooseGrade') {
+         this.isGradeList = false 
+         }
+     })
 }
+  }
 
 </script>
 
 <style lang="sass" scope>
+@import "vue-select/src/scss/vue-select.scss"
 //顏色定義
 $color_blue: #282f44
 $color_brown: #E6AF2E
@@ -441,7 +587,16 @@ $color_gray: #C2C2C2
   100%
     opacity: 1
 // ----------------------
-
+.mobile-search-bar
+  width: 100%
+  display: flex
+  flex-direction: column
+  background-color: transparent
+  cursor: pointer
+  margin-top: 30px
+  @media screen and (min-width: 960px)
+    display: none
+  
 .search-bar
   width: 100%
   display: inline-flex
@@ -452,6 +607,8 @@ $color_gray: #C2C2C2
   border-radius: 5px
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px 0px
   margin-top: 30px
+  @media screen and (max-width: 960px)
+    display: none
 
 input
   background: none
@@ -462,12 +619,26 @@ input
 ::placeholder
   font-weight: bold
 
-.enter-teacher,.enter-class,.choose-department,.choose-classTime,.choose-grade,.ready-search
-  border-right: solid 1px $color_gray
+.mobile-enter-teacher,.mobile-enter-class,.mobile-choose-department,.mobile-choose-classTime,.mobile-choose-grade,.mobile-ready-search
+  background-color: $color_white
   padding: 5px 15px
   line-height: 35px
   text-align: center
-  flex: 6
+  margin-top: 5px
+  border-radius: 5px
+  display: inline-flex
+
+.mobile-cross
+  justify-content: flex-end
+
+.enter-teacher,.enter-class,.choose-department,.choose-classTime,.choose-grade
+  padding: 5px 15px
+  line-height: 35px
+  text-align: center
+  flex: 5
+  border-right: solid 1px $color_gray
+.choose-department
+  flex: 9
 .enter-teacher,.enter-class,.choose-department,.choose-classTime,.choose-grade
   display: inline-flex
   justify-content: space-between
@@ -483,18 +654,25 @@ input
 .choose-grade
   flex: 3
 .ready-search
+  padding: 5px 15px
+  line-height: 35px
+  text-align: center
   border: none
-  flex: 2
+  flex: 3
 
 .departments
   position: absolute
   display: inline-flex
-  flex-direction: column
-  justify-content: flex-start
+  flex-direction: row
+  justify-content: space-between
   top: 51px
   left: 0px
-  width: 511px
-  height: 480px
+  overflow-y: auto
+  overflow-x: hidden
+  white-space: normal
+  max-height: calc(100vh - 100px)
+  // width: 511px
+  // height: 480px
   z-index: 10
   background-color: $color_white
   list-style: none
@@ -504,23 +682,22 @@ input
   .department-firstlayer,.college-title
     text-align: left
   .department-secondelayer
-    position: absolute
-    top: 55px
-    right: 20px
-    text-align: right
+    text-align: left
+    padding: 0px
 
 .college,.department-detail,.grade-content
   &:hover
     color: $color_orange
 
-.college-title
+.college-title, .choose-title
   font-weight: bold
 
 .department-title
   position: absolute
   font-weight: bold
-  top: 20px
-  right: 20px
+  top: 0px
+
+  
 
 .grade-layer
   position: absolute
@@ -543,8 +720,11 @@ input
   z-index: 10
   top: 51px
   left: -70px
-  
 
+.mobile-classTime-layer
+  z-index: 10
+  top: 51px
+  right: 0px
 
 
 
@@ -580,6 +760,12 @@ td.drop
   //   background-color: $color_brown
 .highlight
   background-color: $color_brown
+
+.college-box, .choose-box
+  width: 100px
+.department-box
+  width: 220px
+  padding: 35px 0px 20px 30px
         
         
     

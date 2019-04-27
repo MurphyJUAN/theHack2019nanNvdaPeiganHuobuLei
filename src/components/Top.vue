@@ -55,6 +55,8 @@ html,body
   position: relative
   background-color: $color_blue
   padding: 100px  0px 200px 0px
+  @media screen and (max-width: 960px)
+    padding: 100px  0px 100px 0px
   
   
   .header_slo

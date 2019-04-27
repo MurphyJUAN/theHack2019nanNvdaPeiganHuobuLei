@@ -3,21 +3,8 @@
 <div class="rankpage">
    
     <div class="container">
-        
         <div class="bar">
-            <div class="btn-group">
-                <button type="button" style="margin-bottom:25px" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    排序項目
-                </button>
-                <div class="dropdown-menu dropdown-menu-right">
-                    <button class="dropdown-item" type="button">涼度</button>
-                    <button class="dropdown-item" type="button">甜度</button>
-                    <button class="dropdown-item" type="button">互動程度</button>
-                    <button class="dropdown-item" type="button">無聊度</button>
-                    <button class="dropdown-item" type="button">用功時間</button>
-                    <button class="dropdown-item" type="button">資源滿意度</button>
-                </div>
-            </div>
+            <v-select class='col-lg-3' style='margin-bottom: 30px' :options="['涼度','甜度','互動程度','無聊度','用功時間','資源滿意度']"></v-select>
             <tr class="items">
                 <td class="item item0">課程</td>
                 <td class="item item0">教師</td>
@@ -113,63 +100,27 @@
         <div class="form-group">
           <div class="write-rating-box">
             <div class="rating-label">涼度</div>
-            <fieldset class="rating">
-              <input type="checkbox" id="chill-star1" value="1" >
-              <input type="checkbox" id="chill-star2" value="2" >
-              <input type="checkbox" id="chill-star3" value="3" >
-              <input type="checkbox" id="chill-star4" value="4" >
-              <input type="checkbox" id="chill-star5" value="5" >
-            </fieldset>
+            <star-rating star-size='25'></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">甜度</div>
-            <fieldset class="rating">
-              <input type="checkbox" id="chill-star1" value="1" >
-              <input type="checkbox" id="chill-star2" value="2" >
-              <input type="checkbox" id="chill-star3" value="3" >
-              <input type="checkbox" id="chill-star4" value="4" >
-              <input type="checkbox" id="chill-star5" value="5" >
-            </fieldset>
+            <star-rating star-size='25'></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">互動程度</div>
-            <fieldset class="rating">
-              <input type="checkbox" id="chill-star1" value="1" >
-              <input type="checkbox" id="chill-star2" value="2" >
-              <input type="checkbox" id="chill-star3" value="3" >
-              <input type="checkbox" id="chill-star4" value="4" >
-              <input type="checkbox" id="chill-star5" value="5" >
-            </fieldset>
+            <star-rating star-size='25'></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">無聊度</div>
-            <fieldset class="rating">
-              <input type="checkbox" id="chill-star1" value="1" >
-              <input type="checkbox" id="chill-star2" value="2" >
-              <input type="checkbox" id="chill-star3" value="3" >
-              <input type="checkbox" id="chill-star4" value="4" >
-              <input type="checkbox" id="chill-star5" value="5" >
-            </fieldset>
+            <star-rating star-size='25'></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">用功時間</div>
-            <fieldset class="rating">
-              <input type="checkbox" id="chill-star1" value="1" >
-              <input type="checkbox" id="chill-star2" value="2" >
-              <input type="checkbox" id="chill-star3" value="3" >
-              <input type="checkbox" id="chill-star4" value="4" >
-              <input type="checkbox" id="chill-star5" value="5" >
-            </fieldset>
+            <star-rating star-size='25'></star-rating>
           </div>
           <div class="write-rating-box">
             <div class="rating-label">資源滿意度</div>
-            <fieldset class="rating">
-              <input type="checkbox" id="chill-star1" value="1" >
-              <input type="checkbox" id="chill-star2" value="2" >
-              <input type="checkbox" id="chill-star3" value="3" >
-              <input type="checkbox" id="chill-star4" value="4" >
-              <input type="checkbox" id="chill-star5" value="5" >
-            </fieldset>
+            <star-rating star-size='25'></star-rating>
           </div>
           <button type="submit" class="btn btn-primary btn-lg">送出評分</button>
         </div>
@@ -253,16 +204,18 @@
 </template>
 
 <script>
+import StarRating from 'vue-star-rating'
 import VueMarkdown from 'vue-markdown'
 import {eventBus} from '../main'
+import Vue from 'vue'
+import vSelect from 'vue-select'
+Vue.component('v-select', vSelect)
 
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+// $(function () {
+//   $('[data-toggle="tooltip"]').tooltip()
+// })
 
 export default {
-    
     data: function(){
         return{
             name: "昂昂同學",
@@ -283,7 +236,6 @@ export default {
                     comments: [],
                     total_comment: 0,
                     content:'This course introduces basic concepts of data representation and manipulation.<br/>We will teach how to solve a given problem efficiently and effectively ',
-                    grade: require("../static/成績分佈圖.jpg"),
                     
                 },
                 {
@@ -299,14 +251,14 @@ export default {
                     comments: [],
                     total_comment: 1,
                     content:"一、課程目的<br/>本課程期學生對於計算機網路設計原理有基本瞭解。<br/>二、課程大綱<br/>介紹計算機網路與網際網路，資料鏈結層與區域網路，網路層通訊協定，傳輸層通訊協定，網路應用層。",
-                    grade: require("../static/成績分佈圖.jpg")
                 }
             ]
         };
     },
     
     components:{
-        VueMarkdown
+        VueMarkdown,
+        StarRating
     },
     methods:{
         window: function(idx){
@@ -360,7 +312,7 @@ export default {
 </script>
 
 <style lang="sass" scope >
-
+@import "vue-select/src/scss/vue-select.scss"
 //顏色定義
 $color_blue: #282f44
 $color_brown: #E6AF2E
@@ -419,7 +371,8 @@ html,body
     color: black
 
 .rankpage
-    background: $color_white
+    // background: $color_white
+    background: white
 .tr,.td
     display: block
     color: $color_blue

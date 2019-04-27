@@ -4,19 +4,19 @@
     <h1 class="section_slo">探索有趣的</h1>
     <h1 class="section_slo2">通識</h1>
     <div class="outter">
-      <div class="choose_class">
+      <div class="choose_class col-lg-3 col-md-3 col-sm-12">
         <div class="outer_icon sci"></div>
         <div class="text_pannel">
           <div class="span">自然科學領域</div>
         </div>
       </div>
-      <div class="choose_class">
+      <div class="choose_class col-lg-3 col-md-3 col-sm-12">
         <div class="outer_icon soc"></div>
         <div class="text_pannel">
           <div class="span">社會科學領域</div>
         </div>
       </div>
-      <div class="choose_class">
+      <div class="choose_class col-lg-3 col-md-3 col-sm-12">
         <div class="outer_icon hum"></div>
         <div class="text_pannel">
           <div class="span">人文學領域</div>

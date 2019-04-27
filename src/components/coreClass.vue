@@ -5,7 +5,7 @@
         <h1 class="section_slo">尋找專業的</h1>
         <h1 class="section_slo2">通識</h1>
         <div class="class_box">
-            <div class="col-md-4 col-sm-6 col-xs-12 class_window" v-for="(item, idx) in core_class" :key="idx">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 class_window" v-for="(item, idx) in core_class" :key="idx">
                 <img class="class_img" v-bind:src="item.img"/>
                 <div class="number">{{ item.number }}</div>
                 <div class="name">{{item.name}}</div>
@@ -105,7 +105,7 @@ section.core_generalclass
       display: inline-block
       cursor: pointer
       padding: 0
-      max-width: 350px
+      // max-width: 350px
       
     
       &::before
@@ -123,10 +123,16 @@ section.core_generalclass
           transition: 0.5s
       
       img
-        height: 190px
         width: 100%
         overflow: hidden
-        max-width: 350px
+        height: 25vh
+        
+        @media screen and (max-width: 480px)
+          height: 35vh
+        
+          
+
+        // max-width: 350px
         
        
         
