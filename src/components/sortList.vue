@@ -47,46 +47,13 @@
             <div class="modal-body">
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">查看評分</a>
+                        <a class="nav-item nav-link active" id="nav-rank-tab" data-toggle="tab" href="#nav-rank" role="tab" aria-controls="nav-rank" aria-selected="true">為課程評分</a>
+                        <a class="nav-item nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="false">查看評分</a>
                         <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">課程說明</a>
-                        <a class="nav-item nav-link" id="nav-rank-tab" data-toggle="tab" href="#nav-rank" role="tab" aria-controls="nav-rank" aria-selected="false">為課程評分</a>
                     </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                        <div class="score" >
-                            <div class="order" >
-                                <h5 >涼度</h5>
-                                <h5 class="w_score" :class="[courses[idx].comfort >='4.0'  ? 'red' : 'black']">{{courses[idx].comfort}}</h5>
-                            </div>
-                            <div class="order" >
-                                <h5 class="w_text "> 甜度</h5>
-                                <h5 class="w_text w_score" :class="[courses[idx].sweet >='4.0'  ? 'red' : 'black']">{{courses[idx].sweet}}</h5>
-                            </div>
-                            <div class="order">
-                                <h5 class="w_text">互動程度</h5>
-                                <h5 class="w_text w_score" :class="[courses[idx].interact >='4.0'  ? 'red' : 'black']">{{courses[idx].interact}}</h5>
-                            </div>
-                            <div class="order">
-                                <h5 class="w_text ">無聊度</h5>
-                                <h5 class="w_text w_score" :class="[courses[idx].boring >='4.0'  ? 'red' : 'black']">{{courses[idx].boring}}</h5>
-                            </div>
-                            <div class="order">
-                                <h5 class="w_text ">用功時間</h5>
-                                <h5 class="w_text w_score" :class="[courses[idx].time >='4.0'  ? 'red' : 'black']">{{courses[idx].time}}</h5>
-                            </div>
-                            <div class="order">
-                                <h5 class="w_text ">資源滿意度</h5>
-                                <h5 class="w_text w_score" :class="[courses[idx].source >='4.0'  ? 'red' : 'black']">{{courses[idx].source}}</h5>
-                            </div>
-                            <div class="total_rank">{{courses[idx].total_rank}}個人共同評分</div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <p v-html="courses[idx].content"></p>
-                        
-                    </div>
-                    <div class="tab-pane fade" id="nav-rank" role="tabpanel" aria-labelledby="nav-rank-tab">
+                    <div class="tab-pane fade show active" id="nav-rank" role="tabpanel" aria-labelledby="nav-rank-tab">
                         <div class="scorepage">
   <div class="container">
     <div class="row">
@@ -137,6 +104,40 @@
   </div>
 </div>
                     </div>
+                    <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="score" >
+                            <div class="order" >
+                                <h5 >涼度</h5>
+                                <h5 class="w_score" :class="[courses[idx].comfort >='4.0'  ? 'red' : 'black']">{{courses[idx].comfort}}</h5>
+                            </div>
+                            <div class="order" >
+                                <h5 class="w_text "> 甜度</h5>
+                                <h5 class="w_text w_score" :class="[courses[idx].sweet >='4.0'  ? 'red' : 'black']">{{courses[idx].sweet}}</h5>
+                            </div>
+                            <div class="order">
+                                <h5 class="w_text">互動程度</h5>
+                                <h5 class="w_text w_score" :class="[courses[idx].interact >='4.0'  ? 'red' : 'black']">{{courses[idx].interact}}</h5>
+                            </div>
+                            <div class="order">
+                                <h5 class="w_text ">無聊度</h5>
+                                <h5 class="w_text w_score" :class="[courses[idx].boring >='4.0'  ? 'red' : 'black']">{{courses[idx].boring}}</h5>
+                            </div>
+                            <div class="order">
+                                <h5 class="w_text ">用功時間</h5>
+                                <h5 class="w_text w_score" :class="[courses[idx].time >='4.0'  ? 'red' : 'black']">{{courses[idx].time}}</h5>
+                            </div>
+                            <div class="order">
+                                <h5 class="w_text ">資源滿意度</h5>
+                                <h5 class="w_text w_score" :class="[courses[idx].source >='4.0'  ? 'red' : 'black']">{{courses[idx].source}}</h5>
+                            </div>
+                            <div class="total_rank">{{courses[idx].total_rank}}個人共同評分</div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <p v-html="courses[idx].content"></p>
+                        
+                    </div>
+                    
                 </div>
 
                 
