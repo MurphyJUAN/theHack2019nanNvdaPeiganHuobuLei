@@ -1,0 +1,48 @@
+hack2o1q
+
+gunicorn trial:app -p trial.pid -b 0.0.0.0:5000 -D
+cat trial.pid 
+gunicorn trial:app -b 0.0.0.0:5000
+
+gunicorn core:app -b 0.0.0.0:5000
+
+virtualenv venv		
+. venv/bin/activate
+
+kill -HUP `trial.pid`
+
+netstat -lnp|grep 5000
+
+kill -9 11100
+
+deactivate
+
+python -V
+Python 3.6.1
+
+virtualenv -p
+
+virtualenv --python=/usr/local/python3.6/bin/python3.6 env1
+
+source env1/bin/activate
+deactivate
+
+149.28.38.89
+h(Z1jf1hDcJDM!Q@
+
+/home/wwwroot/default/hackthon
+
+http://149.28.38.89/hackthon/grammar/grammarbot-php-client/samples/checkGrammar.php?text=jima%20is%20gooda
+
+python server1.py
+
+
+/home/wwwroot/default/hackthon/Chatbot_2.7/web
+gunicorn server:app -b 0.0.0.0:4999
+
+
+pip install pysqlite3 
+
+bs4
+
+http://cdnjs.loli.net/ajax/libs/mdui/0.4.2/css/mdui.min.css
