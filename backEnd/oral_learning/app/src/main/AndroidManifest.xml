@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bdkj.com.englishstu">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 获取WiFi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取网络信息状态，如当前的网络连接是否有效 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 读取手机状态 phone group -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".base.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.WelcomeActivity"
+            android:launchMode="standard"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.LoginActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.StuMainActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.AdmMainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.TeaMainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".base.baseView.BaseActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.EditNoticeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.InfoModifyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.EditClassActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".view.NoteDetailActivity" />
+        <activity
+            android:name=".view.EditTeacherActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.TeaInfoModifyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.TeaEditNoticeActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.EditExamActivity"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity
+            android:name=".view.EditTestActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.EditStudentActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.StuInfoModifyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.AnswerExamActivity"
+            android:screenOrientation="landscape"
+           />
+        <activity
+            android:name=".view.MarkDetailActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.ShowTeacherActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.ShowStudentActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.ShowExamActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.ShowTestActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.MarkCharActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".view.MarkStudentCharActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

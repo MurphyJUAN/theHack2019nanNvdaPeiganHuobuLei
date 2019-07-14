@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bdkj.com.englishstu.view.Fragment.AdClassFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/regular_dimen_x80"
+            android:layout_marginRight="@dimen/text_size_40"
+            android:src="@mipmap/btn_left_normal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/regular_dimen_x20"
+            android:layout_marginTop="@dimen/regular_dimen_x20"
+            android:layout_weight="1"
+            android:background="@color/normal_grey"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="@dimen/text_size_40"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/tv_sentence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_20"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/normal_5"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/hint_grey"
+                android:textSize="@dimen/text_size_18" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/regular_dimen_x40"
+            android:layout_marginRight="@dimen/regular_dimen_x80"
+            android:src="@mipmap/btn_right_normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/fl_speck_voice"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/hint_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/btn_reading_normal"
+                android:drawablePadding="@dimen/normal_5"
+                android:gravity="center"
+                android:text="朗读"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/fl_remind_voice"
+            android:layout_width="0dp"
+            android:layout_marginLeft="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/hint_grey">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/btn_remind_normal"
+                android:drawablePadding="@dimen/normal_5"
+                android:gravity="center"
+                android:text="提示"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_18" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

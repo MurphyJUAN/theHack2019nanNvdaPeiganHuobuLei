@@ -1,0 +1,375 @@
+2019-01-09 12:27:06,874 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 12:27:07,246 : INFO : Using an existing server http://localhost:9000
+2019-01-09 12:27:08,250 : INFO : The server is available.
+2019-01-09 12:27:08,251 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 12:27:09,989 : INFO :  * Restarting with stat
+2019-01-09 12:27:13,892 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 12:27:14,088 : INFO : Using an existing server http://localhost:9000
+2019-01-09 12:27:15,092 : INFO : The server is available.
+2019-01-09 12:27:15,094 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 12:27:15,516 : WARNING :  * Debugger is active!
+2019-01-09 12:27:15,520 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 12:27:15,544 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 13:04:42,110 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET / HTTP/1.1" 200 -
+2019-01-09 13:04:42,357 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 -
+2019-01-09 13:04:42,477 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /medius/css/medius-style.css HTTP/1.1" 200 -
+2019-01-09 13:04:42,478 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+2019-01-09 13:04:42,478 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2019-01-09 13:04:42,478 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /vendor/jquery/jquery-3.3.1.min.js HTTP/1.1" 200 -
+2019-01-09 13:04:42,479 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /vendor/foundation-icons/foundation-icons.css HTTP/1.1" 200 -
+2019-01-09 13:04:42,664 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /medius/js/chat.js HTTP/1.1" 200 -
+2019-01-09 13:04:42,976 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /vendor/foundation-icons/foundation-icons.woff HTTP/1.1" 200 -
+2019-01-09 13:04:42,977 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /medius/images/bg.png HTTP/1.1" 200 -
+2019-01-09 13:04:42,978 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:42] "GET /medius/images/chat-bg.png HTTP/1.1" 200 -
+2019-01-09 13:04:43,237 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:43] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-09 13:04:45,519 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:04:45,530 : INFO : 127.0.0.1 - - [09/Jan/2019 13:04:45] "GET /chat?message=hi HTTP/1.1" 200 -
+2019-01-09 13:05:05,060 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:05:06,561 : INFO : 127.0.0.1 - - [09/Jan/2019 13:05:06] "GET /chat?message=cats%20are%20good%20pet HTTP/1.1" 500 -
+2019-01-09 13:17:04,194 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 13:17:04,563 : INFO :  * Restarting with stat
+2019-01-09 13:17:08,229 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:17:08,409 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:17:09,413 : INFO : The server is available.
+2019-01-09 13:17:09,415 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:17:09,879 : WARNING :  * Debugger is active!
+2019-01-09 13:17:09,883 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 13:17:09,888 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 13:18:03,231 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 13:18:03,555 : INFO :  * Restarting with stat
+2019-01-09 13:18:07,241 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:18:07,421 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:18:08,426 : INFO : The server is available.
+2019-01-09 13:18:08,428 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:18:08,887 : WARNING :  * Debugger is active!
+2019-01-09 13:18:08,891 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 13:18:08,897 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 13:22:06,881 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 13:22:07,214 : INFO :  * Restarting with stat
+2019-01-09 13:22:11,075 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:22:11,260 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:22:12,264 : INFO : The server is available.
+2019-01-09 13:22:12,266 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:23:49,646 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:23:49,828 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:23:50,832 : INFO : The server is available.
+2019-01-09 13:23:50,835 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:23:51,265 : INFO :  * Restarting with stat
+2019-01-09 13:23:54,944 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:23:55,142 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:23:56,146 : INFO : The server is available.
+2019-01-09 13:23:56,149 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:23:56,589 : WARNING :  * Debugger is active!
+2019-01-09 13:23:56,593 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 13:23:56,598 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 13:24:48,410 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 13:24:48,743 : INFO :  * Restarting with stat
+2019-01-09 13:24:52,561 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:24:52,743 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:24:53,747 : INFO : The server is available.
+2019-01-09 13:24:53,750 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:24:54,184 : WARNING :  * Debugger is active!
+2019-01-09 13:24:54,188 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 13:24:54,194 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 13:29:07,074 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 13:29:07,424 : INFO :  * Restarting with stat
+2019-01-09 13:29:11,407 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 13:29:11,605 : INFO : Using an existing server http://localhost:9000
+2019-01-09 13:29:12,609 : INFO : The server is available.
+2019-01-09 13:29:12,611 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 13:29:13,134 : WARNING :  * Debugger is active!
+2019-01-09 13:29:13,137 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 13:29:13,143 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 13:58:39,228 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 13:58:39,562 : INFO :  * Restarting with stat
+2019-01-09 14:06:55,104 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:06:55,284 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:06:56,289 : INFO : The server is available.
+2019-01-09 14:06:56,293 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:06:56,765 : INFO :  * Restarting with stat
+2019-01-09 14:07:00,423 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:07:00,597 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:07:01,600 : INFO : The server is available.
+2019-01-09 14:07:01,603 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:07:02,056 : WARNING :  * Debugger is active!
+2019-01-09 14:07:02,060 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 14:07:02,066 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 14:07:21,828 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:07:22,979 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:22] "GET /chat?message=what%20is%20your%20name%20mohammad%20 HTTP/1.1" 500 -
+2019-01-09 14:07:47,301 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:47] "GET / HTTP/1.1" 200 -
+2019-01-09 14:07:47,549 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:47] "GET /vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 -
+2019-01-09 14:07:47,615 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:47] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+2019-01-09 14:07:47,615 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:47] "GET /medius/css/medius-style.css HTTP/1.1" 200 -
+2019-01-09 14:07:47,616 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:47] "GET /vendor/foundation-icons/foundation-icons.css HTTP/1.1" 200 -
+2019-01-09 14:07:51,793 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:07:51,802 : INFO : 127.0.0.1 - - [09/Jan/2019 14:07:51] "GET /chat?message=hi HTTP/1.1" 200 -
+2019-01-09 14:08:00,434 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:08:00,444 : INFO : 127.0.0.1 - - [09/Jan/2019 14:08:00] "GET /chat?message=what%20is%20your%20name%3F HTTP/1.1" 200 -
+2019-01-09 14:08:17,624 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:08:17,686 : INFO : 127.0.0.1 - - [09/Jan/2019 14:08:17] "GET /chat?message=what%20is%20a%20chatbot%20program%3F HTTP/1.1" 500 -
+2019-01-09 14:10:03,301 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:10:03,475 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:10:04,478 : INFO : The server is available.
+2019-01-09 14:10:04,481 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:10:04,983 : INFO :  * Restarting with stat
+2019-01-09 14:10:08,658 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:10:08,836 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:10:09,840 : INFO : The server is available.
+2019-01-09 14:10:09,843 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:10:10,296 : WARNING :  * Debugger is active!
+2019-01-09 14:10:10,300 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 14:10:10,305 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 14:10:18,721 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:10:19,825 : INFO : 127.0.0.1 - - [09/Jan/2019 14:10:19] "GET /chat?message=what%20is%20a%20chatbot%20program%3F HTTP/1.1" 500 -
+2019-01-09 14:35:05,003 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:35:05,370 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:35:06,386 : INFO : The server is available.
+2019-01-09 14:35:06,389 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:35:06,558 : INFO :  * Restarting with stat
+2019-01-09 14:35:11,741 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:35:11,962 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:35:12,978 : INFO : The server is available.
+2019-01-09 14:35:12,981 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:35:13,138 : WARNING :  * Debugger is active!
+2019-01-09 14:35:13,142 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 14:35:13,196 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 14:46:04,803 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:46:04,887 : INFO : 127.0.0.1 - - [09/Jan/2019 14:46:04] "GET /chat?message=what%20is%20a%20chatbot%20program%3F HTTP/1.1" 200 -
+2019-01-09 14:55:59,778 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 14:56:00,223 : INFO :  * Restarting with stat
+2019-01-09 14:56:18,752 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:56:18,936 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:56:19,951 : INFO : The server is available.
+2019-01-09 14:56:19,952 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:56:47,726 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:56:47,901 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:56:48,905 : INFO : The server is available.
+2019-01-09 14:56:48,906 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:56:49,073 : INFO :  * Restarting with stat
+2019-01-09 14:56:52,680 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:56:52,859 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:56:53,864 : INFO : The server is available.
+2019-01-09 14:56:53,865 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:56:54,007 : WARNING :  * Debugger is active!
+2019-01-09 14:56:54,010 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 14:56:54,016 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 14:57:40,640 : INFO : 127.0.0.1 - - [09/Jan/2019 14:57:40] "GET / HTTP/1.1" 200 -
+2019-01-09 14:57:50,172 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:57:50,197 : INFO : 127.0.0.1 - - [09/Jan/2019 14:57:50] "GET /chat?message=what%20is%20a%20chatbot%20program%3F HTTP/1.1" 200 -
+2019-01-09 14:59:11,020 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:59:11,212 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:59:12,216 : INFO : The server is available.
+2019-01-09 14:59:12,217 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:59:12,364 : INFO :  * Restarting with stat
+2019-01-09 14:59:15,943 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 14:59:16,115 : INFO : Using an existing server http://localhost:9000
+2019-01-09 14:59:17,119 : INFO : The server is available.
+2019-01-09 14:59:17,120 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:59:17,264 : WARNING :  * Debugger is active!
+2019-01-09 14:59:17,268 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 14:59:17,273 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 14:59:34,210 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:59:34,239 : INFO : 127.0.0.1 - - [09/Jan/2019 14:59:34] "GET /chat?message=what%20is%20a%20chatbot%20program%3F HTTP/1.1" 200 -
+2019-01-09 14:59:58,280 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 14:59:59,817 : INFO : 127.0.0.1 - - [09/Jan/2019 14:59:59] "GET /chat?message=what%20is%20a%20chatbots%20programs%3F HTTP/1.1" 200 -
+2019-01-09 15:01:33,058 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:01:33,339 : INFO : 127.0.0.1 - - [09/Jan/2019 15:01:33] "GET /chat?message=what%20is%20crying HTTP/1.1" 200 -
+2019-01-09 15:02:50,873 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 15:02:51,218 : INFO :  * Restarting with stat
+2019-01-09 15:02:54,948 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:02:55,118 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:02:56,123 : INFO : The server is available.
+2019-01-09 15:02:56,124 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:02:56,270 : WARNING :  * Debugger is active!
+2019-01-09 15:02:56,273 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 15:02:56,279 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 15:04:02,723 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:04:03,007 : INFO : 127.0.0.1 - - [09/Jan/2019 15:04:03] "GET /chat?message=are%20you%20crying%3F HTTP/1.1" 200 -
+2019-01-09 15:43:21,474 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:43:21,630 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:43:22,631 : INFO : The server is available.
+2019-01-09 15:43:22,631 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:43:22,772 : INFO :  * Restarting with stat
+2019-01-09 15:43:26,038 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:43:26,194 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:43:27,202 : INFO : The server is available.
+2019-01-09 15:43:27,202 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:43:27,342 : WARNING :  * Debugger is active!
+2019-01-09 15:43:27,342 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 15:43:27,358 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 15:43:40,461 : INFO : 127.0.0.1 - - [09/Jan/2019 15:43:40] "GET / HTTP/1.1" 200 -
+2019-01-09 15:43:43,486 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:43:43,497 : INFO : 127.0.0.1 - - [09/Jan/2019 15:43:43] "GET /chat?message=What%20is%20a%20chatbot%3F HTTP/1.1" 200 -
+2019-01-09 15:45:28,210 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 15:45:28,522 : INFO :  * Restarting with stat
+2019-01-09 15:45:31,882 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:45:32,023 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:45:33,040 : INFO : The server is available.
+2019-01-09 15:46:38,832 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:46:39,008 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:46:40,023 : INFO : The server is available.
+2019-01-09 15:46:40,023 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:46:40,163 : INFO :  * Restarting with stat
+2019-01-09 15:46:43,425 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:46:43,575 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:46:44,592 : INFO : The server is available.
+2019-01-09 15:46:44,595 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:46:44,739 : WARNING :  * Debugger is active!
+2019-01-09 15:46:44,754 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 15:46:44,754 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 15:48:40,264 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 15:48:40,579 : INFO :  * Restarting with stat
+2019-01-09 15:48:44,006 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:48:44,177 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:48:45,178 : INFO : The server is available.
+2019-01-09 15:48:45,178 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:48:45,318 : WARNING :  * Debugger is active!
+2019-01-09 15:48:45,318 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 15:48:45,334 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 15:58:48,603 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:58:48,759 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:58:49,766 : INFO : The server is available.
+2019-01-09 15:58:49,766 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:58:49,906 : INFO :  * Restarting with stat
+2019-01-09 15:58:53,239 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 15:58:53,395 : INFO : Using an existing server http://localhost:9000
+2019-01-09 15:58:54,396 : INFO : The server is available.
+2019-01-09 15:58:54,396 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:58:54,537 : WARNING :  * Debugger is active!
+2019-01-09 15:58:54,537 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 15:58:54,537 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 15:59:02,352 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 15:59:02,373 : INFO : 127.0.0.1 - - [09/Jan/2019 15:59:02] "GET /chat?message=What%20is%20a%20chatbot%3F HTTP/1.1" 200 -
+2019-01-09 16:00:22,496 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:00:22,810 : INFO :  * Restarting with stat
+2019-01-09 16:00:26,076 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:00:26,232 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:00:27,247 : INFO : The server is available.
+2019-01-09 16:02:26,916 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:02:27,088 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:02:28,088 : INFO : The server is available.
+2019-01-09 16:02:37,153 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:02:37,325 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:02:38,325 : INFO : The server is available.
+2019-01-09 16:02:38,325 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:02:38,466 : INFO :  * Restarting with stat
+2019-01-09 16:02:41,764 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:02:41,936 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:02:42,924 : INFO : The server is available.
+2019-01-09 16:02:42,933 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:02:43,070 : WARNING :  * Debugger is active!
+2019-01-09 16:02:43,074 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:02:43,079 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:02:46,976 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:02:46,998 : INFO : 127.0.0.1 - - [09/Jan/2019 16:02:46] "GET /chat?message=What%20is%20a%20chatbot%3F HTTP/1.1" 200 -
+2019-01-09 16:03:28,482 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:03:28,810 : INFO :  * Restarting with stat
+2019-01-09 16:03:32,076 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:03:32,248 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:03:33,263 : INFO : The server is available.
+2019-01-09 16:03:33,263 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:03:33,388 : WARNING :  * Debugger is active!
+2019-01-09 16:03:33,388 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:03:33,403 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:04:58,052 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:04:58,078 : INFO : 127.0.0.1 - - [09/Jan/2019 16:04:58] "GET /chat?message=What%20is%20a%20chatbot%3F HTTP/1.1" 200 -
+2019-01-09 16:05:36,011 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:05:36,961 : INFO : 127.0.0.1 - - [09/Jan/2019 16:05:36] "GET /chat?message=cats HTTP/1.1" 200 -
+2019-01-09 16:05:50,842 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:05:51,154 : INFO :  * Restarting with stat
+2019-01-09 16:05:54,673 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:05:54,817 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:05:55,851 : INFO : The server is available.
+2019-01-09 16:05:55,851 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:05:55,976 : WARNING :  * Debugger is active!
+2019-01-09 16:05:55,976 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:05:55,991 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:07:32,172 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:07:32,484 : INFO :  * Restarting with stat
+2019-01-09 16:07:35,718 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:07:35,906 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:07:36,921 : INFO : The server is available.
+2019-01-09 16:07:36,921 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:07:37,045 : WARNING :  * Debugger is active!
+2019-01-09 16:07:37,061 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:07:37,061 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:07:58,261 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:07:58,558 : INFO :  * Restarting with stat
+2019-01-09 16:08:02,044 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:08:02,216 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:08:03,216 : INFO : The server is available.
+2019-01-09 16:08:03,216 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:08:03,341 : WARNING :  * Debugger is active!
+2019-01-09 16:08:03,341 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:08:03,356 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:09:14,257 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:09:15,190 : INFO : 127.0.0.1 - - [09/Jan/2019 16:09:15] "GET /chat?message=cats%20are%20beautiful%20pet%20animals HTTP/1.1" 200 -
+2019-01-09 16:11:01,752 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:11:02,064 : INFO :  * Restarting with stat
+2019-01-09 16:11:05,514 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:11:05,671 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:11:06,673 : INFO : The server is available.
+2019-01-09 16:11:06,673 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:11:06,813 : WARNING :  * Debugger is active!
+2019-01-09 16:11:06,813 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:11:06,813 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:12:06,233 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:12:06,561 : INFO :  * Restarting with stat
+2019-01-09 16:12:09,824 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:12:10,012 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:12:11,012 : INFO : The server is available.
+2019-01-09 16:13:12,752 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:13:12,924 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:13:13,939 : INFO : The server is available.
+2019-01-09 16:13:13,939 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:13:14,079 : INFO :  * Restarting with stat
+2019-01-09 16:13:17,340 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:13:17,511 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:13:18,512 : INFO : The server is available.
+2019-01-09 16:13:18,512 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:13:18,626 : WARNING :  * Debugger is active!
+2019-01-09 16:13:18,659 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:13:18,659 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:13:29,291 : INFO : 127.0.0.1 - - [09/Jan/2019 16:13:29] "GET / HTTP/1.1" 200 -
+2019-01-09 16:13:39,974 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:13:40,075 : INFO : 127.0.0.1 - - [09/Jan/2019 16:13:40] "GET /chat?message=what%20is%20a%20chatbot%20and%20cats%3F HTTP/1.1" 500 -
+2019-01-09 16:14:03,864 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:14:04,067 : INFO : 127.0.0.1 - - [09/Jan/2019 16:14:04] "GET /chat?message=cats HTTP/1.1" 200 -
+2019-01-09 16:15:01,591 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:15:01,671 : INFO : 127.0.0.1 - - [09/Jan/2019 16:15:01] "GET /chat?message=what%20are%20cats%3F HTTP/1.1" 200 -
+2019-01-09 16:15:35,959 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:15:36,164 : INFO : 127.0.0.1 - - [09/Jan/2019 16:15:36] "GET /chat?message=are%20you%20a%20male%3F HTTP/1.1" 200 -
+2019-01-09 16:15:52,824 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:15:53,644 : INFO : 127.0.0.1 - - [09/Jan/2019 16:15:53] "GET /chat?message=I%27m%20here%2024%2F7%20to%20answer%20your%20questions.. HTTP/1.1" 200 -
+2019-01-09 16:16:50,583 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:16:50,592 : INFO : 127.0.0.1 - - [09/Jan/2019 16:16:50] "GET /chat?message=what%20is%20your%20name%3F HTTP/1.1" 200 -
+2019-01-09 16:34:29,850 : INFO :  * Detected change in 'C:\\workspace-chatbot\\UI\\MyPhD-Chatbot\\Chatbot_3.6\\chatbot\\chatbot.py', reloading
+2019-01-09 16:34:30,178 : INFO :  * Restarting with stat
+2019-01-09 16:34:33,708 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:34:33,880 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:34:34,880 : INFO : The server is available.
+2019-01-09 16:34:34,880 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:34:35,021 : WARNING :  * Debugger is active!
+2019-01-09 16:34:35,021 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:34:35,036 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:34:47,519 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:34:47,529 : INFO : 127.0.0.1 - - [09/Jan/2019 16:34:47] "GET /chat?message=what%20is%20your%20name%3F HTTP/1.1" 200 -
+2019-01-09 16:38:21,373 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:38:21,544 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:42:01,116 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:42:01,288 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:42:02,288 : INFO : The server is available.
+2019-01-09 16:42:02,288 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:42:02,429 : INFO :  * Restarting with stat
+2019-01-09 16:42:05,709 : INFO : Restoring parameters from C:\workspace-chatbot\UI\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-09 16:42:05,865 : INFO : Using an existing server http://localhost:9000
+2019-01-09 16:42:06,866 : INFO : The server is available.
+2019-01-09 16:42:06,866 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:42:07,006 : WARNING :  * Debugger is active!
+2019-01-09 16:42:07,006 : INFO :  * Debugger PIN: 644-370-937
+2019-01-09 16:42:07,006 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-09 16:42:21,931 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:42:21,939 : INFO : 127.0.0.1 - - [09/Jan/2019 16:42:21] "GET /chat?message=what%20is%20your%20name%3F HTTP/1.1" 200 -
+2019-01-09 16:42:23,675 : INFO : 127.0.0.1 - - [09/Jan/2019 16:42:23] "GET / HTTP/1.1" 200 -
+2019-01-09 16:42:39,190 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-09 16:42:40,111 : INFO : 127.0.0.1 - - [09/Jan/2019 16:42:40] "GET /chat?message=cats%20are%20good%20animals HTTP/1.1" 200 -

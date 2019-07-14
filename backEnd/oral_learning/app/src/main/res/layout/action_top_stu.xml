@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/topbar"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:background="@color/dark_green">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:drawableLeft="@mipmap/btn_index_normal"
+            android:drawablePadding="@dimen/normal_5"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_15" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_search_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/normal_10"
+        android:gravity="center"
+        android:padding="@dimen/normal_10"
+        android:src="@drawable/search_pressed" />
+
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="首页"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_21" />
+
+        <RadioGroup
+            android:id="@+id/rb_menu_top"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/normal_5"
+            android:layout_marginTop="@dimen/normal_5"
+            android:background="@drawable/border_radio_check"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_test"
+                style="@style/top_radio_button"
+                android:checked="true"
+                android:text="练习" />
+
+
+            <RadioButton
+                android:id="@+id/rb_exam"
+                style="@style/top_radio_button"
+                android:text="考试" />
+
+        </RadioGroup>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_text_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/normal_10"
+            android:layout_marginTop="@dimen/normal_5"
+            android:text="英语教育软件"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tv_text_top"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/normal_10"
+            android:gravity="right"
+            android:text="学生"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12" />
+    </RelativeLayout>
+</LinearLayout>

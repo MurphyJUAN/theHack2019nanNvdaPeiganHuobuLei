@@ -1,0 +1,48 @@
+2018-12-05 11:10:32,969 : INFO : Restoring parameters from D:\workspace-chatbots\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2018-12-05 11:10:36,838 : INFO : Using an existing server http://localhost:9000
+2018-12-05 11:10:37,883 : INFO : The server is available.
+2018-12-05 11:10:37,899 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:10:45,106 : INFO :  * Restarting with stat
+2018-12-05 11:11:07,882 : INFO : Restoring parameters from D:\workspace-chatbots\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2018-12-05 11:11:08,987 : INFO : Using an existing server http://localhost:9000
+2018-12-05 11:11:10,010 : INFO : The server is available.
+2018-12-05 11:11:10,019 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:11:10,791 : WARNING :  * Debugger is active!
+2018-12-05 11:11:10,807 : INFO :  * Debugger PIN: 187-856-552
+2018-12-05 11:11:10,838 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-12-05 11:11:40,633 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:40] "GET / HTTP/1.1" 200 -
+2018-12-05 11:11:40,918 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:40] "GET /vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 -
+2018-12-05 11:11:41,206 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:41] "GET /medius/css/medius-style.css HTTP/1.1" 200 -
+2018-12-05 11:11:41,231 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:41] "GET /vendor/jquery/jquery-3.3.1.min.js HTTP/1.1" 200 -
+2018-12-05 11:11:41,249 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:41] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+2018-12-05 11:11:41,264 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:41] "GET /vendor/foundation-icons/foundation-icons.css HTTP/1.1" 200 -
+2018-12-05 11:11:41,353 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:41] "GET /medius/js/chat.js HTTP/1.1" 200 -
+2018-12-05 11:11:41,536 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:41] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2018-12-05 11:11:44,357 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:44] "GET /medius/images/bg.png HTTP/1.1" 200 -
+2018-12-05 11:11:44,375 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:44] "GET /medius/images/chat-bg.png HTTP/1.1" 200 -
+2018-12-05 11:11:44,428 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:44] "GET /vendor/foundation-icons/foundation-icons.woff HTTP/1.1" 200 -
+2018-12-05 11:11:44,613 : INFO : 127.0.0.1 - - [05/Dec/2018 11:11:44] "GET /favicon.ico HTTP/1.1" 404 -
+2018-12-05 11:12:42,565 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:12:42,656 : INFO : 127.0.0.1 - - [05/Dec/2018 11:12:42] "GET /chat?message=hi HTTP/1.1" 200 -
+2018-12-05 11:12:57,277 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:13:03,561 : INFO : 127.0.0.1 - - [05/Dec/2018 11:13:03] "GET /chat?message=mohammad HTTP/1.1" 200 -
+2018-12-05 11:13:14,063 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:13:14,199 : INFO : 127.0.0.1 - - [05/Dec/2018 11:13:14] "GET /chat?message=my%20name%20is%20mohammad%20 HTTP/1.1" 200 -
+2018-12-05 11:13:47,412 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:13:47,603 : INFO : 127.0.0.1 - - [05/Dec/2018 11:13:47] "GET /chat?message=what%20is%20a%20chatbot%3F HTTP/1.1" 200 -
+2018-12-05 11:20:12,149 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:20:12,307 : INFO : 127.0.0.1 - - [05/Dec/2018 11:20:12] "GET /chat?message=what%20is%20the%20interest%20rate%20for%20amex%20card%3F HTTP/1.1" 200 -
+2018-12-05 11:20:34,122 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:20:37,215 : INFO : 127.0.0.1 - - [05/Dec/2018 11:20:37] "GET /chat?message=2%20%2B%202%20%3D%20%3F HTTP/1.1" 200 -
+2018-12-05 11:20:53,620 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:21:01,120 : INFO : 127.0.0.1 - - [05/Dec/2018 11:21:01] "GET /chat?message=what%20is%202%20%2B%202 HTTP/1.1" 200 -
+2018-12-05 11:21:27,625 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:21:36,296 : INFO : 127.0.0.1 - - [05/Dec/2018 11:21:36] "GET /chat?message=what%20is%202%20%2B%202%20%3D%20%3F HTTP/1.1" 200 -
+2018-12-05 11:21:48,306 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:21:48,524 : INFO : 127.0.0.1 - - [05/Dec/2018 11:21:48] "GET /chat?message=who%20is%20einstein%3F HTTP/1.1" 200 -
+2018-12-05 11:22:05,765 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:22:10,277 : INFO : 127.0.0.1 - - [05/Dec/2018 11:22:10] "GET /chat?message=who%20is%20doland%3F HTTP/1.1" 200 -
+2018-12-05 11:22:19,653 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:22:22,511 : INFO : 127.0.0.1 - - [05/Dec/2018 11:22:22] "GET /chat?message=who%20is%20donald%20trump%3F HTTP/1.1" 200 -
+2018-12-05 11:43:51,084 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2018-12-05 11:43:51,224 : INFO : 127.0.0.1 - - [05/Dec/2018 11:43:51] "GET /chat?message=what%20types%20of%20chatbot%20are%20there%3F HTTP/1.1" 200 -

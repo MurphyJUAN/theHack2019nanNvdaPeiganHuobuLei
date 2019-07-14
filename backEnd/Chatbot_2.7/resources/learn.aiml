@@ -1,0 +1,8 @@
+<aiml version="2.0" encoding="UTF-8">
+
+    <!-- Learning function -->
+    <category>
+		<pattern>LEARN</pattern>
+		<template>Please teach me.</template>
+    </category>
+</aiml>

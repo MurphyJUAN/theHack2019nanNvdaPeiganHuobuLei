@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UNSW AI Chatbot</title>
+
+    <link type="text/css" rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" >
+    <link type="text/css" rel="stylesheet" href="medius/css/medius-style.css">
+    <link type="text/css" rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="vendor/foundation-icons/foundation-icons.css">
+
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="medius/js/chat.js"></script>
+
+    <style>
+        body, html {
+            height: 100%;
+        }
+        .bg  {
+            background-image: url("medius/images/bg.png");
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .bgChat  {
+            background-image: url("medius/images/chat-bg.png");
+            height: 100%;
+            background-repeat: no-repeat;
+        }
+    </style>
+   <!-- <script>
+        $(function(){
+            $("#header").load("nav-header.html");
+        });
+    </script>-->
+</head>
+
+<body>
+
+<!--        <div id="header"></div>     -->
+<!-- Navbar : Header -->
+<nav class="navbar navbar-expand nav-header">
+    <a class="navbar-brand mr-1" href="index.html">AI Chatbot</a>
+    <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+        <ul class="navbar-nav ml-auto ml-md-0">
+            <a class="nav-link" href="#">Assessments</a>
+            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" href="#">Account</a>
+        </ul>
+    </div>
+</nav>
+
+<div class="bg">
+    <div class="col-md-4 col-md-offset-4">
+<br>
+            <div class="card card-chatbot mx-auto">
+                <div class="card-header text-center"><strong>AI Chatbot</strong></div>
+
+                <div class="card-body bgChat">
+                   
+					<div class="speak_box">
+						<div class="answer">
+							<div class="answer_text">
+								<p>Hi, I'm AI Chatbot. I'm here 24/7 to answer your questions..</p>				
+							</div>
+						</div>
+					</div>
+
+                    <div class="text-left">
+                        <a class="d-block mt-3">Type your message</a>
+                    </div>     
+					<div class="right-inner-addon chat_box">
+						<i class="fi-magnifying-glass"></i>
+						<input class="form-control" type="text" onKeyUp="key_up()"/>
+					</div>
+
+                </div>
+            </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).keydown(function (event) {
+            if (event.keyCode == 13) {
+                send_message();
+            }
+        });
+
+        $('.chat_box input').focus();
+    });
+</script>
+
+</body>
+</html>

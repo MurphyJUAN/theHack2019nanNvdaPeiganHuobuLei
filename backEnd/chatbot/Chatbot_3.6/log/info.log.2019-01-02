@@ -1,0 +1,26 @@
+2019-01-02 11:57:08,271 : INFO : Restoring parameters from D:\workspace-chatbots\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-02 11:57:12,076 : INFO : Using an existing server http://localhost:9000
+2019-01-02 11:57:13,089 : INFO : The server is available.
+2019-01-02 11:57:13,105 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-02 11:57:19,315 : INFO :  * Restarting with stat
+2019-01-02 11:57:39,838 : INFO : Restoring parameters from D:\workspace-chatbots\MyPhD-Chatbot\Chatbot_3.6\Data\Result\basic
+2019-01-02 11:57:40,892 : INFO : Using an existing server http://localhost:9000
+2019-01-02 11:57:41,904 : INFO : The server is available.
+2019-01-02 11:57:41,910 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-02 11:57:42,745 : WARNING :  * Debugger is active!
+2019-01-02 11:57:42,760 : INFO :  * Debugger PIN: 187-856-552
+2019-01-02 11:57:42,781 : INFO :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-01-02 12:01:38,781 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:38] "GET / HTTP/1.1" 200 -
+2019-01-02 12:01:39,096 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 -
+2019-01-02 12:01:39,263 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /vendor/foundation-icons/foundation-icons.css HTTP/1.1" 200 -
+2019-01-02 12:01:39,291 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 -
+2019-01-02 12:01:39,312 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /medius/css/medius-style.css HTTP/1.1" 200 -
+2019-01-02 12:01:39,342 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+2019-01-02 12:01:39,383 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /vendor/jquery/jquery-3.3.1.min.js HTTP/1.1" 200 -
+2019-01-02 12:01:39,483 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:39] "GET /medius/js/chat.js HTTP/1.1" 200 -
+2019-01-02 12:01:43,068 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:43] "GET /vendor/foundation-icons/foundation-icons.woff HTTP/1.1" 200 -
+2019-01-02 12:01:43,075 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:43] "GET /medius/images/bg.png HTTP/1.1" 200 -
+2019-01-02 12:01:43,107 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:43] "GET /medius/images/chat-bg.png HTTP/1.1" 200 -
+2019-01-02 12:01:43,297 : INFO : 127.0.0.1 - - [02/Jan/2019 12:01:43] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-02 12:02:00,060 : INFO : {'properties': "{'annotators': 'pos', 'outputFormat': 'json'}", 'pipelineLanguage': 'en'}
+2019-01-02 12:02:00,129 : INFO : 127.0.0.1 - - [02/Jan/2019 12:02:00] "GET /chat?message=hi HTTP/1.1" 200 -

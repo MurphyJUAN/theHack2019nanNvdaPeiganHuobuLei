@@ -1,0 +1,64 @@
+2018-11-10 00:06:24,437 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:06:24,447 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:06:25,831 : DEBUG : Loading model cost 1.392 seconds.
+2018-11-10 00:06:25,832 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:07:32,101 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:07:32,128 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:07:33,977 : DEBUG : Loading model cost 1.872 seconds.
+2018-11-10 00:07:33,979 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:08:42,165 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:08:42,177 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:08:43,721 : DEBUG : Loading model cost 1.554 seconds.
+2018-11-10 00:08:43,723 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:10:25,408 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:10:25,421 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:10:27,132 : DEBUG : Loading model cost 1.722 seconds.
+2018-11-10 00:10:27,134 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:15:40,173 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:15:40,183 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:15:41,584 : DEBUG : Loading model cost 1.409 seconds.
+2018-11-10 00:15:41,585 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:17:07,046 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:17:07,061 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:17:08,836 : DEBUG : Loading model cost 1.788 seconds.
+2018-11-10 00:17:08,838 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:17:21,839 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:17:21,849 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:17:23,451 : DEBUG : Loading model cost 1.610 seconds.
+2018-11-10 00:17:23,453 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:17:50,160 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:17:50,170 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:17:51,617 : DEBUG : Loading model cost 1.455 seconds.
+2018-11-10 00:17:51,618 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:19:36,221 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:19:36,234 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:19:38,326 : DEBUG : Loading model cost 2.103 seconds.
+2018-11-10 00:19:38,328 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:20:08,496 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:20:08,509 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:20:10,295 : DEBUG : Loading model cost 1.796 seconds.
+2018-11-10 00:20:10,296 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:21:09,404 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:21:09,415 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:21:11,312 : DEBUG : Loading model cost 1.907 seconds.
+2018-11-10 00:21:11,313 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:21:21,986 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:21:21,996 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:21:23,598 : DEBUG : Loading model cost 1.610 seconds.
+2018-11-10 00:21:23,599 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:22:01,451 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:22:01,463 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:22:03,253 : DEBUG : Loading model cost 1.799 seconds.
+2018-11-10 00:22:03,255 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:22:37,930 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:22:37,941 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:22:39,380 : DEBUG : Loading model cost 1.447 seconds.
+2018-11-10 00:22:39,381 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:22:57,084 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:22:57,094 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:22:58,578 : DEBUG : Loading model cost 1.493 seconds.
+2018-11-10 00:22:58,579 : DEBUG : Prefix dict has been built succesfully.
+2018-11-10 00:24:10,825 : DEBUG : Building prefix dict from the default dictionary ...
+2018-11-10 00:24:10,836 : DEBUG : Loading model from cache c:\users\zaman\appdata\local\temp\jieba.cache
+2018-11-10 00:24:12,711 : DEBUG : Loading model cost 1.884 seconds.
+2018-11-10 00:24:12,713 : DEBUG : Prefix dict has been built succesfully.
