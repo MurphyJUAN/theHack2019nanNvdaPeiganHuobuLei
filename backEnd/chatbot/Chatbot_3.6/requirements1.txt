@@ -18,7 +18,7 @@ google-cloud-core
 tqdm
 scikit-learn
 tensorlayer==1.6.3
-tensorflow==1.4
+tensorflow==2.5.3
 django
 tflearn
 h5py
